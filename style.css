@@ -1,0 +1,517 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+header {
+  text-align: center;
+  background: #a69482;
+  width: 100%;
+  height: 500px;
+  color: white;
+  position: relative;
+}
+.whitebox {
+  position: absolute;
+  display: block;
+  background: white;
+  width: 1000px;
+  height: 300px;
+  top: 100px;
+  left: 150px;
+}
+.box1 {
+  position: absolute;
+  display: block;
+  background: #a69482;
+  width: 950px;
+  height: 250px;
+  top: 25px;
+  left: 25px;
+}
+.box1 h1 {
+  position: relative;
+  top: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+nav ul li {
+  list-style: none;
+  border: 1px solid #a69482;
+  padding: 30px;
+  width: 100px;
+  text-align: center;
+  outline: 5px solid #a69482;
+  outline-offset: 2px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a69482;
+}
+.one {
+  text-align: center;
+  padding: 50px 0;
+  color: #a69482;
+}
+.s01 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.right p{
+  padding: 100px 0;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+  color: #a69482;
+}
+.two img {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #a69482;
+  outline: 5px solid #a69482;
+  outline-offset: 5px;
+}
+.out01 {
+  padding: 50px 0;
+}
+.out01 a {
+  width: 150px;
+  background: #a69482;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid white;
+  outline: 9px solid  #a69482;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.three {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  color: #a69482;
+}
+.insta ,.shop1{
+  text-align: center;
+  border: 2px solid #a69482;
+  outline-offset: 10px;
+  outline: 20px solid #a69482;
+  width: 500px;
+  padding: 30px 0;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.shop img{
+  width: 20px;
+}
+.shop a {
+  text-decoration: none;
+  color: #a69482;
+}
+.bottom {
+  text-align: center;
+  padding: 50px;
+  color: #a69482;
+}
+.bottom h3 {
+  padding: 50px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #a69482;
+  font-weight: bold;
+}
+footer {
+  background: #a69482;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+header {
+  text-align: center;
+  background: #a69482;
+  width: 100%;
+  height: 400px;
+  color: white;
+  position: relative;
+}
+.whitebox {
+  position: absolute;
+  display: block;
+  background: white;
+  width: 900px;
+  height: 300px;
+  top: 50px;
+  left: 50px;
+}
+.box1 {
+  position: absolute;
+  display: block;
+  background: #a69482;
+  width: 800px;
+  height: 250px;
+  top: 25px;
+  left: 50px;
+}
+.box1 h1 {
+  position: relative;
+  top: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+nav ul li {
+  list-style: none;
+  border: 1px solid #a69482;
+  padding: 30px;
+  width: 100px;
+  text-align: center;
+  outline: 5px solid #a69482;
+  outline-offset: 2px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a69482;
+}
+.one {
+  text-align: center;
+  padding: 50px 0;
+  color: #a69482;
+}
+.s01 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.right p{
+  padding: 100px 0;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+  color: #a69482;
+}
+.two img {
+  width: 250px;
+  height: 250px;
+  border: 10px solid #a69482;
+  outline: 2px solid #a69482;
+  outline-offset: 2px;
+}
+.three {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  color: #a69482;
+}
+.insta ,.shop1{
+  text-align: center;
+  border: 2px solid #a69482;
+  outline-offset: 10px;
+  outline: 20px solid #a69482;
+  width: 300px;
+  padding: 30px 0;
+}
+.shop1 p {
+  padding: 0 50px;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.shop img{
+  width: 20px;
+}
+.bottom {
+  text-align: center;
+  padding: 50px;
+  color: #a69482;
+}
+.bottom h3 {
+  padding: 50px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #a69482;
+  font-weight: bold;
+}
+footer {
+  background: #a69482;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+}
+}
+@media screen and (max-width: 768px) {
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+header {
+  text-align: center;
+  background: #a69482;
+  width: 100%;
+  height: 450px;
+  color: white;
+  position: relative;
+}
+.whitebox {
+  position: absolute;
+  display: block;
+  background: white;
+  width: 500px;
+  height: 400px;
+  top: 50px;
+  left: 50px;
+}
+.box1 {
+  position: absolute;
+  display: block;
+  background: #a69482;
+  width: 950px;
+  height: 250px;
+  top: 25px;
+  left: 25px;
+}
+.box1 h1 {
+  position: relative;
+  top: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+nav ul li {
+  list-style: none;
+  border: 1px solid #a69482;
+  padding: 30px;
+  width: 100px;
+  text-align: center;
+  outline: 5px solid #a69482;
+  outline-offset: 2px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a69482;
+}
+.one {
+  text-align: center;
+  padding: 50px 0;
+  color: #a69482;
+}
+.s01 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.right p{
+  padding: 100px 0;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+  color: #a69482;
+}
+.two img {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #a69482;
+  outline: 5px solid #a69482;
+  outline-offset: 5px;
+}
+.three {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  color: #a69482;
+}
+.insta ,.shop1{
+  text-align: center;
+  border: 2px solid #a69482;
+  outline-offset: 10px;
+  outline: 20px solid #a69482;
+  width: 500px;
+  padding: 30px 0;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.shop img{
+  width: 20px;
+}
+.bottom {
+  text-align: center;
+  padding: 50px;
+  color: #a69482;
+}
+.bottom h3 {
+  padding: 50px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #a69482;
+  font-weight: bold;
+}
+footer {
+  background: #a69482;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+}
+}
+@media screen and (max-width: 480px) {
+/* 480pxまでの幅の場合に適応される */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+header {
+  text-align: center;
+  background: #a69482;
+  width: 100%;
+  height: 250px;
+  color: white;
+  position: relative;
+}
+.whitebox {
+  position: absolute;
+  display: block;
+  background: white;
+  width: 300px;
+  height: 200px;
+  top: 25px;
+  left: 25px;
+}
+.box1 {
+  position: absolute;
+  display: block;
+  background: #a69482;
+  width: 250px;
+  height: 150px;
+  top: 25px;
+  left: 25px;
+}
+.box1 h1 {
+  position: relative;
+  top: 30px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+nav ul li {
+  list-style: none;
+  border: 1px solid #a69482;
+  padding: 10px;
+  width: 55px;
+  text-align: center;
+  outline: 3px solid #a69482;
+  outline-offset: 2px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a69482;
+}
+.one {
+  text-align: center;
+  padding: 10px 0;
+  color: #a69482;
+}
+.s01 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.right p{
+  padding: 50px 0;
+}
+.two {
+  display: flex;
+  justify-content: space-around;
+  color: #a69482;
+}
+.two img {
+  width: 300px;
+  height: 300px;
+  border: 20px solid #a69482;
+  outline: 5px solid #a69482;
+  outline-offset: 5px;
+}
+.three {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  color: #a69482;
+}
+.insta ,.shop1{
+  text-align: center;
+  border: 2px solid #a69482;
+  outline-offset: 10px;
+  outline: 20px solid #a69482;
+  width: 500px;
+  padding: 30px 0;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.shop img{
+  width: 20px;
+}
+.bottom {
+  text-align: center;
+  padding: 50px;
+  color: #a69482;
+}
+.bottom h3 {
+  padding: 50px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #a69482;
+  font-weight: bold;
+}
+footer {
+  background: #a69482;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+}
+}
+/*code.css*/
